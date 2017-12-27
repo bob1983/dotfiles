@@ -1,0 +1,9 @@
+---
+- name: Add go repository
+  apt_repository:
+    repo: ppa:gophers/archive
+    state: present
+    update_cache: true
+- name: Install go
+  apt:
+    name: golang-go

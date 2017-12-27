@@ -1,0 +1,8 @@
+---
+- name: Install zsh
+   apt:
+     name: zsh
+- name: Change default shell
+  user:
+    name: {{ username }}
+    shell: /usr/bin/zsh

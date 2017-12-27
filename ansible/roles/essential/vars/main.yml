@@ -1,0 +1,19 @@
+---
+packages:
+  - zsh
+  - gcc
+  - direnv
+  # - ghq
+  - jq
+  - vim
+  # - neovim
+  # - docker
+  # - vagrant
+  # - packer
+  # - terraform
+  # - valut
+  - tig
+  - tmux
+  - git
+  # - hub
+  # - virtualbox
