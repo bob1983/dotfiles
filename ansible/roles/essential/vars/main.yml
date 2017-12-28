@@ -1,6 +1,5 @@
 ---
 packages:
-  - zsh
   - gcc
   - direnv
   # - ghq
