@@ -1,0 +1,6 @@
+---
+- name: Install rcm
+  import_tasks: osx.yml
+  when: ansible_system|lower == 'darwin'
+- name: Run rcup
+  command: env RCRC={{rcrc_file_dir}} rcup
