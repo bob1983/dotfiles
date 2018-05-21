@@ -8,6 +8,7 @@ EXCLUDES="
   atom/installed_packages
   bootstrap*\.sh
   gitconfig\.*
+  ansible
 "
 DOTFILES_DIRS="$HOME/dotfiles"
 TAGS="
