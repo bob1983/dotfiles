@@ -1,3 +1,7 @@
+function change_default_dir_name() {
+  LANG=C xdg-user-dirs-gtk-update
+}
+
 function install_pyenv() {
   curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
 }
