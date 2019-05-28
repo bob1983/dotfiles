@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=xkeysnail
+GenericName=Keymapper
+Exec=/home/bob/dotfiles/tag-xkeysnail/start-xkeysnail.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
