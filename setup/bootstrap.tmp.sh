@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function change_default_dir_name() {
   LANG=C xdg-user-dirs-gtk-update
 }
@@ -16,8 +18,13 @@ function install_essential() {
   curl gcc direnv jq tig tmux git silversearcher-ag xclip rxvt-unicode-256color
 }
 
-function install_pyenv() {
-  curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+function install_zsh() {
+  sudo apt-get install -y zsh
+  chsh -s $(which zsh)
+}
+
+function install_zplug() {
+  curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh| zsh
 }
 
 function install_xkeysnail() {
@@ -25,8 +32,18 @@ function install_xkeysnail() {
   sudo pip3 install xkeysnail
 }
 
-function install_dropbox() {
-  cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-  ~/.dropbox-dist/dropboxd&
+function install_gnome_keychain() {
+  sudo apt-get install libgnome-keyring-dev -y
+  sudo make --directory=/usr/share/doc/git/contrib/credential/gnome-keyring
 }
 
+
+# change_default_dir_name
+# apt_cleanup
+# apt_update
+# install_essential
+# install_zsh
+# install_zplug
+# install_xkeysnail
+# install_gnome_keychain
+# install_zplug

@@ -25,8 +25,17 @@ Setup your rcfiles.
 
 - [ ] power line setting broken
 - [ ] copy and paste on terminal
-- [ ] keymapping
+- [ ] xkeysnail keymapping
+  - Chrome
+    - Search not working
+    - New tab not working
+    - Tab switching not working
 - [ ] vs code setup
 - [ ] window manager -> place windows
   - I can do this with win + left|right|up|down but I wanna make this as different shortcut
+  - Launcher with `win`
+  - Switch applications with `win` + `tab`
+- [ ] vim setting
+  - Share clipboard
+  - Use fzf instead of ctrl-p
 
