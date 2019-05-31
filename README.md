@@ -19,3 +19,14 @@ Setup your rcfiles.
 ./bootstrap.sh
 ./setup/symlink.sh
 ```
+
+### TODOS
+#### Ubuntu
+
+- [ ] power line setting broken
+- [ ] copy and paste on terminal
+- [ ] keymapping
+- [ ] vs code setup
+- [ ] window manager -> place windows
+  - I can do this with win + left|right|up|down but I wanna make this as different shortcut
+
