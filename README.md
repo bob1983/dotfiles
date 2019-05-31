@@ -23,6 +23,10 @@ Setup your rcfiles.
 ### TODOS
 #### Ubuntu
 
+- [x] github
+  - 2fa
+    - Get access token
+    - Enter username: bob1983 and password(token)
 - [ ] power line setting broken
 - [ ] copy and paste on terminal
 - [ ] xkeysnail keymapping
@@ -31,6 +35,8 @@ Setup your rcfiles.
     - New tab not working
     - Tab switching not working
 - [ ] vs code setup
+  - Configure setting sync to share configuration
+  - font
 - [ ] window manager -> place windows
   - I can do this with win + left|right|up|down but I wanna make this as different shortcut
   - Launcher with `win`
@@ -38,4 +44,7 @@ Setup your rcfiles.
 - [ ] vim setting
   - Share clipboard
   - Use fzf instead of ctrl-p
-
+  - Remove unused plug
+- [ ] tig
+  - `Ctrl - c` to commit not working -> 
+- [ ] .ssh doesn't work
