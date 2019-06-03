@@ -33,6 +33,9 @@ define_multipurpose_modmap(
 
 # Keybindings for Firefox/Chrome
 define_keymap(re.compile("Firefox|Google-chrome"), {
+    # Meta + t to open a new tab
+    K("M-t"): K("C-t"),
+    K("M-w"): K("C-w"),
     # Ctrl+Alt+j/k to switch next/previous tab
     K("C-M-j"): K("C-TAB"),
     K("C-M-k"): K("C-Shift-TAB"),
@@ -49,7 +52,7 @@ define_keymap(re.compile("Zeal"), {
 }, "Zeal")
 
 # Emacs-like keybindings in non-Emacs applications
-define_keymap(lambda wm_class: wm_class not in ("Gnome-terminal", "Emacs", "URxvt"), {
+define_keymap(lambda wm_class: wm_class not in ("Code" ,"Gnome-terminal", "Emacs", "URxvt"), {
     # Cursor
     K("C-b"): with_mark(K("left")),
     K("C-f"): with_mark(K("right")),
