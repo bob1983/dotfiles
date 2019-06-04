@@ -28,7 +28,8 @@ Setup your rcfiles.
     - Get access token
     - Enter username: bob1983 and password(token)
 - [ ] power line setting broken
-- [ ] copy and paste on terminal
+- [x] copy and paste on terminal
+    - Use shift + ctrl + v for now ...
 - [ ] xkeysnail keymapping
   - Chrome
     - Search not working
@@ -42,9 +43,5 @@ Setup your rcfiles.
   - Launcher with `win`
   - Switch applications with `win` + `tab`
 - [ ] vim setting
-  - Share clipboard
-  - Use fzf instead of ctrl-p
   - Remove unused plug
-- [ ] tig
-  - `Ctrl - c` to commit not working -> 
 - [ ] .ssh doesn't work
