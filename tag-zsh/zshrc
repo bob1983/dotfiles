@@ -43,3 +43,7 @@ done
 autoload -U compinit
 compinit
 
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/bob/.sdkman"
+[[ -s "/home/bob/.sdkman/bin/sdkman-init.sh" ]] && source "/home/bob/.sdkman/bin/sdkman-init.sh"
